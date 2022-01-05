@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/Jetson_MFRC522/MFRC522.py
+src/Jetson_MFRC522/SimpleMFRC522.py
+src/Jetson_MFRC522/__init__.py
+src/Jetson_MFRC522.egg-info/PKG-INFO
+src/Jetson_MFRC522.egg-info/SOURCES.txt
+src/Jetson_MFRC522.egg-info/dependency_links.txt
+src/Jetson_MFRC522.egg-info/requires.txt
+src/Jetson_MFRC522.egg-info/top_level.txt
