@@ -1,5 +1,2 @@
-# Example Package
-
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+# RFID library for Jetson Family
+This is a simple python library that provides a way to communicate jetson devices with MRFC522 modules
