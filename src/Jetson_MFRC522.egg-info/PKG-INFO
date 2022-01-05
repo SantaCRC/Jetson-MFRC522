@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: Jetson-MFRC522
-Version: 0.0.2
+Version: 0.0.3
 Summary: A library to integrate the MFRC522 RFID readers with the Jetson family
 Home-page: https://github.com/SantaCRC/Jetson-MFRC522
 Author: Fabian Alvarez
@@ -8,7 +8,32 @@ Author-email: support@fabianalvarez.dev
 License: UNKNOWN
 Project-URL: Bug Tracker, https://github.com/SantaCRC/Jetson-MFRC522/issues
 Description: # RFID library for Jetson Family
-        This is a simple python library that provides a way to communicate jetson devices with MRFC522 modules
+        This is a simple python library that provides a way to communicate jetson devices with MFRC522 modules
+        
+        ## Installation
+        The easier way to install is through pip
+        ```
+        pip install Jetson-MFRC522
+        ```
+        also you can install it manually by clone the repo and run pip install command
+        ## Example
+        This is a simple example that read id and text in RFID card, tested in Jetson Nano.
+        ```python
+        from time import sleep
+        import sys
+        from Jetson_MFRC522 import SimpleMFRC522
+        reader = SimpleMFRC522()
+        
+        try:
+            while True:
+                print("Hold a tag near the reader")
+                id, text = reader.read()
+                print("ID: %s\nText: %s" % (id,text))
+                sleep(5)
+        except KeyboardInterrupt:
+            GPIO.cleanup()
+            raise
+        ```
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 2.7
