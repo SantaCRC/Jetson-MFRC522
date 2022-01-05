@@ -11,7 +11,7 @@ setuptools.setup(
     description="A library to integrate the MFRC522 RFID readers with the Raspberry Pi",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pimylifeup/MFRC522-python",
+    url="https://github.com/SantaCRC/Jetson-MFRC522",
     packages=setuptools.find_packages(),
     install_requires=[
         'Jetson.GPIO',
