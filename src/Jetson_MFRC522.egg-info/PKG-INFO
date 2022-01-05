@@ -2,11 +2,16 @@ Metadata-Version: 2.1
 Name: Jetson-MFRC522
 Version: 0.0.1
 Summary: A library to integrate the MFRC522 RFID readers with the Raspberry Pi
-Home-page: https://github.com/pimylifeup/MFRC522-python
+Home-page: https://github.com/SantaCRC/Jetson-MFRC522
 Author: Fabian Alvarez
 Author-email: support@fabianalvarez.dev
 License: UNKNOWN
 Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Description: # Example Package
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 2.7
 Classifier: Programming Language :: Python :: 3
@@ -15,11 +20,3 @@ Classifier: Operating System :: POSIX :: Linux
 Classifier: Topic :: System :: Hardware
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
-License-File: LICENSE
-
-# Example Package
-
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
-
