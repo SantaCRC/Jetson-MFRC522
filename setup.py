@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.2",
     author="Fabian Alvarez",
     author_email="support@fabianalvarez.dev",
-    description="A library to integrate the MFRC522 RFID readers with the Raspberry Pi",
+    description="A library to integrate the MFRC522 RFID readers with the Jetson family",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/SantaCRC/Jetson-MFRC522",

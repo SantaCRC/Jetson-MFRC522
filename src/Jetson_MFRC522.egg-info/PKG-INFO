@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: Jetson-MFRC522
-Version: 0.0.1
+Version: 0.0.2
 Summary: A library to integrate the MFRC522 RFID readers with the Raspberry Pi
 Home-page: https://github.com/SantaCRC/Jetson-MFRC522
 Author: Fabian Alvarez
