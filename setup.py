@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Jetson_MFRC522",
-    version="0.0.3",
+    version="1.0.0",
     author="Fabian Alvarez",
     author_email="support@fabianalvarez.dev",
     description="A library to integrate the MFRC522 RFID readers with the Jetson family",
