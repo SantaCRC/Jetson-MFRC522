@@ -25,3 +25,32 @@ except KeyboardInterrupt:
     GPIO.cleanup()
     raise
 ```
+## Getting started on Jetson Nano
+
+This library use the SPI communication, and custom GPIO Jetson library, by default use SPI1 interface of Jetson Nano, Configure the Jetso for SPI, use the command
+```bash
+sudo /opt/nvidia/jetson-io/jetson-io.py
+```
+
+
+![image](https://user-images.githubusercontent.com/35088759/195137955-cd688e92-e85c-42b6-b9d8-cccbe4dea9e0.png)
+
+We select Configure 40-pin expansion header:
+
+
+
+![image](https://user-images.githubusercontent.com/35088759/195138202-44eee403-d356-4609-99bc-3f17e37c2713.png)
+
+in our case we select SPI1. Use the arrow keys to navigate to the desired entry, Return selects/deselects the entry. Select Back when done. You should see the new configuration on the main menu. Save and reboot to reconfigure pins.
+
+### Wiring the RFID RC522
+
+| RFID module  |  Jetson Nano | 
+|---|---|
+|SDA   | PIN 24               |
+|  SCK |   PIN 23            |   
+|  MOSI | PIN 19  |   
+|  MISO | PIN 21  |   
+|  GND | PIN 6  |   
+|  RST | PIN 22  |   
+|  3.3V | PIN 1  |
